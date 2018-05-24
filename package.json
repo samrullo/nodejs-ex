@@ -11,6 +11,12 @@
     "mocha": "^2.4.5",
     "mongodb": "^2.1.16",
     "morgan": "^1.7.0",
+    "compression":"1.6.0",
+    "body-parser":"1.15.2",
+    "method-override":"2.3.6",
+    "express-session":"1.14.1",
+    "ejs":"2.5.2",
+    "mongoose":"4.6.5",
     "object-assign": "4.1.0"
   },
   "engine": {
