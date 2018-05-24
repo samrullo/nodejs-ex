@@ -32,12 +32,6 @@ if (mongoURL == null && process.env.DATABASE_SERVICE_NAME) {
 
   }
 }
-console.log("mongoURL:"+mongoURL);
-console.log("process.env.DATABASE_SERVICE_NAME"+process.env.DATABASE_SERVICE_NAME);
-console.log("mongoHost:"+mongoHost);
-console.log("mongoPort:"+mongoPort);
-console.log("mongoPassword:"+mongoPassword);
-console.log("mongoUser:"+mongoUser);
 var db = null,
     dbDetails = new Object();
 
