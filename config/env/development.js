@@ -29,7 +29,7 @@ var db=null,dbDetails=new Object();
 
 conf=
 {
-   db:'mongodb://samrullo:samrullo@172.30.160.109:27017/jpsweet'
+   db:'mongodb://samrullo:samrullo@172.30.160.109:27017/jpsweet',
    //db:mongoURL,
    sessionSecret:'developmentSessionSecret'
 };
