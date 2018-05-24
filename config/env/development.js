@@ -24,10 +24,13 @@ if (mongoURL == null && process.env.DATABASE_SERVICE_NAME) {
   }
 }
 
+var db=null,dbDetails=new Object();
+
+
 conf=
 {
-   //db:'mongodb://localhost/mean-book',
-   db:mongoURL,
+   db:'mongodb://samrullo:samrullo@172.30.160.109:27017/jpsweet'
+   //db:mongoURL,
    sessionSecret:'developmentSessionSecret'
 };
 
